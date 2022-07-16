@@ -1,0 +1,66 @@
+@font-face {
+  font-family: "racerfont";
+  src: url("./racerfont.otf");
+}
+
+* {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #746252;
+}
+ul {
+  margin-left: 20px;
+}
+.introduction {
+  background-color: lightgray;
+  padding: 20px;
+}
+.introduction h1 {
+  background-color: #746252;
+  width: 100vw;
+  padding: 0 !important;
+  margin: 0;
+}
+a {
+  color: blue;
+  text-decoration: underline;
+}
+
+h1 {
+  font-family: "racerfont";
+}
+
+h4 {
+  text-transform: uppercase;
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+#image_list {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  flex-wrap: nowrap;
+  gap: 20px;
+}
+
+.gallery {
+
+  text-align: center;
+}
+
+.gallery-item {
+  margin: 0 auto;
+  min-width: 600px;
+  max-width: 900px;
+  display: block;
+  min-height: 500px;
+}
+
+img {
+  object-fit: contain;
+  width: 100%;
+  height: 100%;
+}
